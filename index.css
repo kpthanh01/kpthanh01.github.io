@@ -12,33 +12,66 @@ body{
 #navTitle{
 	float: left;
 }
-li{
+ul.nav li{
 	float: right;
 }
 .pageOne{
-	background: url();
-	margin-bottom: 35%;
+	background: url(bridge.jpg);
+	background-size: cover;
+	padding-bottom: 20%;
+}
+#title1{
+	font-size: 90px;
+	padding-top: 10%;
 }
 .pageTwo{
-	background: url();
-	margin-bottom: 35%;
+	background: url(mountain.jpg);
+	background-size: cover;
+	padding-bottom: 21%;
+}
+.row{
+	padding-top: 25px;
+}
+h2{
+	font-size: 40px;
+}
+p{
+	font-size: 20px;
 }
 #profileImg{
 	height: 400px;
 	width: 400px;
 	display: block;
 	border-radius: 50%;
+	margin: 0 auto;
 }
 .pageThree{
-	background: url();
-	margin-bottom: 35%;
+	background: url(concrete.jpg);
+	background-size: cover;
+	padding-bottom: 20%;
+}
+#title3{
+	font-size: 60px;
+	padding-top: 25px;
+	margin-top: 0;
+
 }
 .pageFour{
-	background: url();
-	margin-bottom: 35%;
+	background: url(glassesComputer.jpg);
+	background-size: cover;
+	padding-bottom: 25%;
+}
+#title4{
+	font-size: 60px;
+	padding-top: 25px;
+	margin-top: 0;
+	text-align: center;
+}
+#contactList{
+	font-size: 40px;
+	padding-top: 50px;
 }
 .footer{
 	text-align: center;
 }
-
 
